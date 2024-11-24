@@ -1,0 +1,21 @@
+
+.top-bar{
+    background: var(--white);
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 0 10px 0 0;
+}
+.action-button-wrapper{
+    button{
+        margin-left: 20px;
+        &.lock-button{
+            svg{
+                transform: rotate(135deg);
+            }
+        }
+    }
+}

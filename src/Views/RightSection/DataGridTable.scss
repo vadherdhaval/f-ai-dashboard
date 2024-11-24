@@ -1,0 +1,27 @@
+.MuiDataGrid-root{
+    .type-cell{
+        span{
+            padding: 3px 5px;
+            border-radius: 3px;
+            background: #ebf1ff;
+            color: var(--blue-color);
+            text-transform: capitalize;
+        }
+        &.red-bg{
+            span{
+                padding: 3px 5px;
+                border-radius: 3px;
+                background: #ffeae3;
+                color: var(--orange-color);
+            }
+        }
+    }
+    .gain-cell,.profit-cell{
+        &.positive{
+            color: var(--blue-color);
+        }
+        &.negative{
+            color: var(--orange-color);
+        }
+    }
+}

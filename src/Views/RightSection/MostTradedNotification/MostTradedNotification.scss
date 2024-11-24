@@ -1,0 +1,84 @@
+.right-side-wrapper{
+    .card{
+        width: 100%;
+        h3{
+            span{
+                em{
+                    font-style: normal;
+                    color: var(--sidebar-title-color);
+                    display: block;
+                    font-size: 12px;
+                }
+            }
+        }
+        .title-with-action{
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+        }
+        .value{
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .bottom-section{
+            margin: 0 -20px;
+            width: calc(100% + 40px);
+            border-top: 1px solid var(--body-bg-color);
+            padding: 10px 20px 0;
+            margin-top: 10px;
+            color: var(--sidebar-title-color);
+            font-size: 12px;
+            span{
+                color: var(--blue-color);
+                &.orange{
+                    color: var(--orange-color);
+                }
+            }
+        }
+    }
+    .traded-data{
+        display: flex;
+        justify-content: space-between;
+        .indi-wrapper{
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+        }
+        .indicator{
+            height: 15px;
+            width: 6px;
+            display: inline-block;
+            margin-right: 5px;
+            border-radius: 8px;
+            &.blue{
+                background: var(--blue-color);
+            }
+            &.orange{
+                background: var(--orange-color);
+            }
+            &.light-blue{
+                background: var(--light-blue-color);
+            }
+            &.opac{
+                opacity: 0.6;
+            }
+        }
+    }
+    .notification-wrapper{
+        .title-wrapper{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            .MuiFormControl-root{
+                margin: 0;
+            }
+            .MuiSelect-select{
+                padding: 4px 30px 4px 10px;
+                font-size: 12px;
+                margin: 0;
+                color: var(--MuiSelect-select-color);
+            }
+        }
+
+    }
+}

@@ -1,0 +1,35 @@
+.right-section {
+    width: calc(100% - 250px);
+    background: #f8f8f8;
+    border-radius: 0 10px 10px 0;
+    overflow: hidden;
+}
+
+.overview-wrapper {
+    padding: 20px;
+
+    .top-section {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .main-table {
+        width: 100%;
+    }
+
+    .graph-view-wrapper {
+        width: 55%;
+
+        .graph-wrap {
+            margin-bottom: 20px;
+            height: 485px;
+        }
+    }
+
+    .right-side-wrapper {
+        margin-left: 20px;
+        width: calc(45% - 20px);
+    }
+}

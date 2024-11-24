@@ -1,3 +1,50 @@
+[data-theme="light"] {
+  --body-bg-color: #f0f0f0;
+  --text-color: black;
+  --white: white;
+  --blue-color: #2f61d5;
+  --orange-color: #fe754d;
+  --light-blue-color: #13c0f9;
+  --primary-button-bg: #2f61d5;
+  --secondary-button-bg: #ebf1ff;
+  --secondary-button-color: #2f61d5;
+  --blocks-bg: white;
+  --sidebar-link-color: #040e25;
+  --sidebar-title-color: #9c9ea4;
+  --MuiDataGrid-root-color: rgba(0,0,0,0.87);
+  --MuiSelect-select-color: rgba(0,0,0,0.87);
+}
+
+[data-theme="dark"] {
+  --body-bg-color: #121212;
+  --text-color: white;
+  --white: white;
+  --blue-color: #2f61d5;
+  --orange-color: #fe754d;
+  --light-blue-color: #13c0f9;
+  --primary-button-bg: #2f61d5;
+  --secondary-button-bg: #ebf1ff;
+  --secondary-button-color: #2f61d5;
+  --blocks-bg: rgb(49, 48, 48);
+  --sidebar-link-color: #040e25;
+  --sidebar-title-color: #9c9ea4;
+  --MuiDataGrid-root-color: white;
+  --MuiSelect-select-color: white;
+}
+
+body {
+  background-color: var(--body-bg-color);
+  color: var(--text-color);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.inputBox {
+  cursor: pointer;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

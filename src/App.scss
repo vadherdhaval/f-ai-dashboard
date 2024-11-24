@@ -1,0 +1,18 @@
+@import './Branding/common.scss';
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: var(--body-bg-color);
+  padding: 60px;
+  font-size: 16px;
+}
+ul{
+  list-style-type: none;
+}
+.main-wrapper{
+  display: flex;
+
+}
