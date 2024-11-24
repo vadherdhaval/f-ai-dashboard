@@ -8,6 +8,7 @@ const Sidebar = () => {
     return (
         <div className="side-bar">
             <div className='top-section'>
+                <div className='main-title'>Trading</div>
                 <Menu />
                 <Apps/>
                 <UserDetails/>
