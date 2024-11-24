@@ -1,6 +1,6 @@
 .right-section {
     width: calc(100% - 250px);
-    background: #f8f8f8;
+    background: var(--rightside-bg);
     border-radius: 0 10px 10px 0;
     overflow: hidden;
 }

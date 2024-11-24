@@ -2,13 +2,19 @@ import Apps from './Apps';
 import Menu from './Menu';
 import './Sidebar.scss';
 import UserDetails from './UserDetails';
+import UserProfile from './UserProfile';
 
 const Sidebar = () => {
     return (
         <div className="side-bar">
-            <Menu />
-            <Apps/>
-            <UserDetails/>
+            <div className='top-section'>
+                <Menu />
+                <Apps/>
+                <UserDetails/>
+            </div>
+            <div className='bottom-section'>
+                <UserProfile/>
+            </div>
         </div>
     )
 }

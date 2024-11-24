@@ -9,10 +9,13 @@
   --secondary-button-bg: #ebf1ff;
   --secondary-button-color: #2f61d5;
   --blocks-bg: white;
+  --topbar-bg: white;
+  --sidebar-bg: white;
   --sidebar-link-color: #040e25;
   --sidebar-title-color: #9c9ea4;
   --MuiDataGrid-root-color: rgba(0,0,0,0.87);
   --MuiSelect-select-color: rgba(0,0,0,0.87);
+  --rightside-bg: #f8f8f8;
 }
 
 [data-theme="dark"] {
@@ -26,10 +29,13 @@
   --secondary-button-bg: #ebf1ff;
   --secondary-button-color: #2f61d5;
   --blocks-bg: rgb(49, 48, 48);
-  --sidebar-link-color: #040e25;
+  --topbar-bg: rgb(49, 48, 48);
+  --sidebar-bg: rgb(49, 48, 48);
+  --sidebar-link-color: white;
   --sidebar-title-color: #9c9ea4;
   --MuiDataGrid-root-color: white;
   --MuiSelect-select-color: white;
+  --rightside-bg: #242424;
 }
 
 body {
