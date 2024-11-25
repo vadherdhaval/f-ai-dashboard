@@ -1,5 +1,4 @@
 import DataView from "./DataView";
-import GraphChart from "./Graph";
 
 const GraphView = () => {
     return(

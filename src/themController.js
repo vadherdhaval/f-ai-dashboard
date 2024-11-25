@@ -15,7 +15,6 @@ export const ThemeProvider = ({children}) => {
         theme: state.THEME.theme
     }));
     const toggleTheme = () => {
-        debugger;
         dispatch(updateTheme({theme:theme === "dark" ? "light" : "dark"}));
     }
     useEffect(() => {

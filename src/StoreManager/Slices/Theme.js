@@ -18,8 +18,6 @@ const theme = createSlice({
 export const updateTheme = createAsyncThunk(
     "workflow",
     async (payload, { dispatch }) => {
-      // console.log("***** stageComplete - Start");
-      debugger;
       try {
           dispatch(setTheme(payload))
       } catch (err) {
